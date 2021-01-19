@@ -95,6 +95,6 @@ def get_median(number_list):
     if len(temp_num) % 2 == 1:
         median = temp_num[len(temp_num)//2]
     else:
-        medinan = (temp_num[len(temp_num)// 2- 1] + temp_num[len(temp_num)//2]) /2            
+        median = (temp_num[len(temp_num)// 2- 1] + temp_num[len(temp_num)//2]) /2            
     
     return median
